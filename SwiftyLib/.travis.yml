@@ -12,3 +12,5 @@ script:
 after_success:
 - slather
 - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
+- bash <(curl -s https://codecov.io/bash)
+- bash <(curl -s https://codecov.io/bash) -t 3c5ac72e-2660-4ae5-b08e-5790107da446
