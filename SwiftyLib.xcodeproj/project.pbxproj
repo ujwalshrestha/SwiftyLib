@@ -16,6 +16,7 @@
 		C7CC46332223D81000CDAAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7CC46322223D81000CDAAC3 /* Assets.xcassets */; };
 		C7CC46362223D81000CDAAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CC46342223D81000CDAAC3 /* LaunchScreen.storyboard */; };
 		C7CC463C2223DA2100CDAAC3 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC463B2223DA2100CDAAC3 /* SwiftyLib.swift */; };
+		C7CC463E2223DD9900CDAAC3 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = C7CC463D2223DD9900CDAAC3 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		C7CC46352223D81000CDAAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7CC46372223D81000CDAAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7CC463B2223DA2100CDAAC3 /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
+		C7CC463D2223DD9900CDAAC3 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				C7CC460E2223D79A00CDAAC3 /* SwiftyLib.h */,
 				C7CC460F2223D79A00CDAAC3 /* Info.plist */,
 				C7CC463B2223DA2100CDAAC3 /* SwiftyLib.swift */,
+				C7CC463D2223DD9900CDAAC3 /* .travis.yml */,
 			);
 			path = SwiftyLib;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7CC463E2223DD9900CDAAC3 /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
